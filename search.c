@@ -3,19 +3,21 @@
 
 int main(void)
 {
-int number[] = {20, 500, 10, 5, 100, 1, 50};
+string string[] = {"Islamabad", "Peshawer", "LAhore", "Karachi", "Pakistan", "India", "London"};
 
-int n = get_int("Number: ");
-for (int i = 0; i < 7; i++)
+string s = get_string("String: ");
+for (int i = 0; i < 6; i++)
 {
-if (number[i] == n)
-{
-    printf("Found\n");
+    if (string[i] == s)
+    {
+printf(" Found\n");
     return 0;
-
+    }
+    
 }
 
-}
+
+
  printf("Not Found\n");
     return 1;
 
