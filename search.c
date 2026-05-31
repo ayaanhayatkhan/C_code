@@ -1,6 +1,6 @@
 #include<cs50.h>
 #include<stdio.h>
-
+#include<string.h>
 int main(void)
 {
 string string[] = {"Islamabad", "Peshawer", "LAhore", "Karachi", "Pakistan", "India", "London"};
@@ -8,7 +8,7 @@ string string[] = {"Islamabad", "Peshawer", "LAhore", "Karachi", "Pakistan", "In
 string s = get_string("String: ");
 for (int i = 0; i < 6; i++)
 {
-    if (string[i] == s)
+    if (strcmp[i],s == 0)
     {
 printf(" Found\n");
     return 0;
